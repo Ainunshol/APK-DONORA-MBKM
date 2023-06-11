@@ -1,0 +1,98 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="330dp"
+    android:layout_height="90dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:backgroundTint="#ffffff"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="7dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="20"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/jumlahstok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center_horizontal"
+                android:text="Stock"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:paddingTop="26dp"
+            android:paddingLeft="15dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/UTD"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="UTD PMI Kota Surabaya"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/alamat"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jalan Embong Ploso No 7-15"
+                    android:textColor="#2B2D42"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circel"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="24sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="8dp"
+                app:srcCompat="@drawable/icon__1_"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

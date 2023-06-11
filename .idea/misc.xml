@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/drawable-v24/ic_baseline_keyboard_arrow_right_24.xml" value="0.181" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/drawable-v24/view_login.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/drawable/view_bg.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/font/font.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_daftar_stok_darah.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_detail_informasi.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_informasi.xml" value="0.2359375" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_new_password.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_reset_password.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_riwayat_pengajuan_darah.xml" value="0.176" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_sel_darah_merah.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/fragment_stok_donor_darah.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/item_stokdarah.xml" value="0.8" />
+        <entry key="..\:/Users/LENOVO/Donora/app/src/main/res/layout/itemdetailinformasi.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
