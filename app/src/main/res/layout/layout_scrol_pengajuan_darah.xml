@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="70dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namalengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Nama Lengkap"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/fieldnamalengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Daud Sony Wakwaw"
+                android:inputType="text"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="No. Telp"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/fieldnotelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="089633375040"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/provinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Provinsi"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/jatim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Jawa Timur"
+                android:inputType="number"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kotakabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Kota/Kabupaten"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/kotasby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Kota Surabaya"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Kecamatan"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/tandes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Tandes"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/alamatlengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Alamat Lengkap"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/fieldalamatlengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Jl. Ahmad Yani No.88, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goldar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Gol. Darah yang Dibutuhkan"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/golO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="O+"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/produkdarah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Produk Darah yang Dibutuhkan"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/plasmadarah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Plasma Darah"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kepentingan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Kepentingan"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/fieldkepentingan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Untuk ini"
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rsemibold"
+                android:text="Deskripsi"
+                android:textColor="#2B2D42"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/fielddeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rmedium"
+                android:hint="Saya membutuhkan 10 kantong untuk ..."
+                android:inputType="number"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
